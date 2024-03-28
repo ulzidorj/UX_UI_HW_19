@@ -1,5 +1,26 @@
 $(document).ready(function () {
-  $("#ViewProject").click(function () {
-    $(".workGrid").slideDown(1000); // Slides down the content over 1 second (1000 milliseconds)
-  });
+  $("button").hover(
+    function () {
+      $(this).animate(
+        {
+          width: "20%",
+          height: "20%",
+          fontSize: "20px",
+        },
+        100
+      );
+    },
+    function () {
+      $(this).animate(
+        {
+          width: "15%",
+          height: "15%",
+          fontSize: "20px",
+        },
+        100
+      );
+    }
+  );
 });
+
+console.log("your index is loaded");

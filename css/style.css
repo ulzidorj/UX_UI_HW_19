@@ -2,11 +2,28 @@
   display: inline-block;
   vertical-align: top;
 }
+h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+}
+
+.resumeButton {
+  margin-top: 20px;
+  max-width: 200px;
+  max-height: 50px; 
+}
 
 .navbar-item {
   display: inline-block;
   height: 25%;
   vertical-align: top;
+}
+.navigation ul li a {
+  color: black; /
 }
 
 .logo {
@@ -14,6 +31,7 @@
   height: 25px;
   scale: 35%;
   margin: 10px;
+
   text-align: center;
   vertical-align: auto;
 }
